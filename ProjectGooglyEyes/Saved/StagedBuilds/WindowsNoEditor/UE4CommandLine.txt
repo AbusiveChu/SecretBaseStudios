@@ -1,0 +1,1 @@
+../../../MyProject/MyProject.uproject  /Temp/Untitled_1 -Messaging -SessionId=A606529544B79572307CB88AC2DAABEC -SessionOwner=William -SessionName='Play On Device' -iterative

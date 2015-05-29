@@ -1,0 +1,876 @@
+﻿Log file open, 05/28/15 10:20:15
+LogInit:Display: Running engine for game: MyProject
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.05.28-14.20.15:349][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.05.28-14.20.15:392][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.28-14.20.15:414][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.28-14.20.15:427][  0]LogInit: Object subsystem initialized
+[2015.05.28-14.20.15:429][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.05.28-14.20.15:429][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/William/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.28-14.20.15:429][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.05.28-14.20.15:429][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/William/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.28-14.20.15:429][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.05.28-14.20.15:429][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/William/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.28-14.20.15:430][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.28-14.20.15:430][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.28-14.20.15:507][  0]LogInit: Computer: WILLIAM-PC
+[2015.05.28-14.20.15:507][  0]LogInit: User: William
+[2015.05.28-14.20.15:507][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.05.28-14.20.15:507][  0]LogInit: High frequency timer resolution =2.929375 MHz
+[2015.05.28-14.20.15:507][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx) Virtual=8192.0GB
+[2015.05.28-14.20.15:507][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.28-14.20.15:507][  0]LogMemory: Process Physical Memory: 46.76 MB used, 46.76 MB peak
+[2015.05.28-14.20.15:507][  0]LogMemory: Process Virtual Memory: 24.95 MB used, 24.95 MB peak
+[2015.05.28-14.20.15:507][  0]LogMemory: Physical Memory: 1356.93 MB used, 4094.30 MB total
+[2015.05.28-14.20.15:507][  0]LogMemory: Virtual Memory: 275.07 MB used, 8388608.00 MB total
+[2015.05.28-14.20.15:551][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7800 Series (Feature Level 11_0)
+[2015.05.28-14.20.15:551][  0]LogD3D11RHI: Adapter has 2031MB of dedicated video memory, 0MB of dedicated system memory, and 1791MB of shared system memory, 1 output[s]
+[2015.05.28-14.20.15:551][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.28-14.20.15:557][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.05.28-14.20.15:563][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.05.28-14.20.15:635][  0]LogTextLocalizationManager: The requested culture ('en_CA') has no localization data; parent culture's ('en') localization data will be used.
+[2015.05.28-14.20.15:717][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.05.28-14.20.15:718][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.05.28-14.20.15:827][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.05.28-14.20.19:100][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.28-14.20.19:966][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.28-14.20.20:112][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.05.28-14.20.21:300][  0]LogDerivedDataCache: Loaded boot cache 1.19s 39MB C:/Users/William/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.28-14.20.21:300][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/William/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.05.28-14.20.21:300][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/William/Documents/Unreal Projects/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.28-14.20.21:300][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.05.28-14.20.21:612][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.05.28-14.20.21:624][  0]LogDerivedDataCache: Using Local data cache path C:/Users/William/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.05.28-14.20.24:225][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.05.28-14.20.24:225][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.05.28-14.20.24:848][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.05.28-14.20.25:014][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.05.28-14.20.39:546][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.05.28-14.20.39:824][  0]SourceControl: Info Source control is disabled
+[2015.05.28-14.20.39:824][  0]SourceControl: Info Source control is disabled
+[2015.05.28-14.20.39:824][  0]SourceControl: Info Source control is disabled
+[2015.05.28-14.20.39:824][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.28-14.20.39:824][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.28-14.20.39:835][  0]SourceControl: Info Source control is disabled
+[2015.05.28-14.20.40:178][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.05.28-14.20.40:178][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.05.28-14.20.40:284][  0]LogEngine: Initializing Engine...
+[2015.05.28-14.20.42:517][  0]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.05.28-14.20.42:584][  0]LogInit: FAudioDevice initialized.
+[2015.05.28-14.20.42:634][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.05.28-14.20.42:672][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/William/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.28-14.20.42:687][  0]LogInit: Texture streaming: Enabled
+[2015.05.28-14.20.42:894][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.05.28-14.20.42:895][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.28-14.20.42:895][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.28-14.20.42:895][  0]LogAnalytics: SetUserId f160376144ba4c97d605bfb501c39ffd|15f34cf7fa114c5fb53d33e349daf407|a4505217-63ea-4243-8783-a99a67f4082c
+[2015.05.28-14.20.42:895][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.05.28-14.20.42:934][  0]LogInit: Transaction tracking system initialized
+[2015.05.28-14.20.43:155][  0]BlueprintLog: New page: Editor Load
+[2015.05.28-14.20.43:197][  0]LogAssetRegistry: FAssetRegistry took 0.0100 seconds to start up
+[2015.05.28-14.20.43:198][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.05.28-14.20.43:889][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.28-14.20.44:333][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.28-14.20.44:722][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.05.28-14.20.44:723][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.05.28-14.20.44:783][  0]LogConsoleResponse:Display: 
+[2015.05.28-14.20.45:461][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.05.28-14.20.45:991][  0]SourceControl: Info Source control is disabled
+[2015.05.28-14.20.45:991][  0]Cmd: MAP LOAD FILE="../../../../../../Users/William/Documents/Unreal Projects/MyProject/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.28-14.20.46:025][  0]LightingResults: New page: Lighting Build
+[2015.05.28-14.20.46:042][  0]MapCheck: New page: Map Check
+[2015.05.28-14.20.46:042][  0]LightingResults: New page: Lighting Build
+[2015.05.28-14.20.46:181][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000003C58C20
+[2015.05.28-14.20.48:850][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.28-14.20.48:944][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.28-14.20.48:945][  0]Cmd: MAP CHECKDEP
+[2015.05.28-14.20.48:945][  0]MapCheck: New page: Minimal_Default - May 28, 2015, 6:20:48 AM
+[2015.05.28-14.20.49:075][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 129.28ms to complete.
+[2015.05.28-14.20.49:075][  0]LogFileHelpers: Loading map 'Minimal_Default' took 3.084
+[2015.05.28-14.20.49:434][  0]LogCollectionManager: Loaded 0 collections in 0.002567 seconds
+[2015.05.28-14.20.49:453][  0]LogContentBrowser: Native class hierarchy populated in 0.0185 seconds. Added 1696 classes and 261 folders.
+[2015.05.28-14.20.49:541][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0028 seconds. Added 1 classes and 2 folders.
+[2015.05.28-14.20.49:857][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.05.28-14.20.49:865][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.05.28-14.20.49:873][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.05.28-14.20.49:925][  0]LogLoad: Full Startup: 37.11 seconds (BP compile: 0.13 seconds)
+[2015.05.28-14.20.50:162][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.05.28-14.20.50:376][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x600 (Frame:6).
+[2015.05.28-14.20.51:255][  6]LogAssetRegistry: Asset discovery search completed in 8.0744 seconds
+[2015.05.28-14.22.58:893][156]Cmd: MAP LOAD FILE="../../../../../../Users/William/Documents/Unreal Projects/MyProject/Content/Testleveledit.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.28-14.22.58:893][156]LightingResults: New page: Lighting Build
+[2015.05.28-14.22.58:933][156]LoadErrors: New page: Loading map: Testleveledit.umap
+[2015.05.28-14.22.58:934][156]MapCheck: New page: Map Check
+[2015.05.28-14.22.58:934][156]LightingResults: New page: Lighting Build
+[2015.05.28-14.22.58:956][156]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F48A340
+[2015.05.28-14.22.58:974][156]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.28-14.22.59:004][156]LogAIModule: Creating AISystem for world Testleveledit
+[2015.05.28-14.22.59:055][156]Cmd: MAP CHECKDEP
+[2015.05.28-14.22.59:055][156]MapCheck: New page: Testleveledit - May 28, 2015, 6:22:59 AM
+[2015.05.28-14.22.59:176][156]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 119.986ms to complete.
+[2015.05.28-14.22.59:176][156]LogFileHelpers: Loading map 'Testleveledit' took 0.286
+[2015.05.28-14.23.00:202][238]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_l2)
+[2015.05.28-14.23.01:148][299]LogEditorViewport: Clicking Background
+[2015.05.28-14.23.10:930][252]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_l5)
+[2015.05.28-14.24.08:308][ 31]Cmd: EDIT COPY
+[2015.05.28-14.24.09:247][ 93]Cmd: EDIT PASTE
+[2015.05.28-14.24.27:903][368]Cmd: EDIT COPY
+[2015.05.28-14.24.28:698][421]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2015.05.28-14.24.29:836][496]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_l6)
+[2015.05.28-14.24.30:429][533]Cmd: EDIT PASTE
+[2015.05.28-14.24.41:919][335]LogEditorViewport: Clicking Background
+[2015.05.28-14.24.42:525][401]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_l7)
+[2015.05.28-14.25.00:493][754]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_l2)
+[2015.05.28-14.25.02:131][890]Cmd: EDIT COPY
+[2015.05.28-14.25.02:967][960]Cmd: EDIT PASTE
+[2015.05.28-14.26.02:515][429]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor1)
+[2015.05.28-14.26.03:517][510]Cmd: EDIT COPY
+[2015.05.28-14.26.04:581][599]Cmd: EDIT PASTE
+[2015.05.28-14.26.26:455][344]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_l8)
+[2015.05.28-14.26.31:143][723]Cmd: EDIT COPY
+[2015.05.28-14.26.38:018][278]Cmd: EDIT PASTE
+[2015.05.28-14.26.52:443][388]MapCheck: New page: Map Check
+[2015.05.28-14.26.52:517][388]LightingResults: New page: Lighting Build - May 28, 2015, 6:26:52 AM
+[2015.05.28-14.27.05:497][388]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.05.28-14.27.05:527][388]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.05.28-14.27.05:527][388]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.05.28-14.27.05:527][388]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.05.28-14.27.05:527][388]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.05.28-14.27.05:527][388]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.05.28-14.27.06:178][388]LogEditorBuildUtils: Build time 0:00:13
+[2015.05.28-14.27.12:122][685]Job is a success!
+[2015.05.28-14.27.12:340][686]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.05.28-14.27.12:660][686]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.05.28-14.27.12:664][686]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.05.28-14.27.12:680][686]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.05.28-14.27.12:807][686]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.05.28-14.27.12:819][686]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2015.05.28-14.27.13:086][686]Lightmass on WILLIAM-PC: 5.57 sec total, 363 ms importing, 4 ms setup, 413 ms photons, 4.71 sec processing, 0 ms extra exporting [94/94 mappings]. Threads: 9.43 sec total, 3.37 sec processing.
+[2015.05.28-14.27.13:128][686]LogStaticLightingSystem: Illumination: 20.6 sec (511 ms encoding lightmaps)
+[2015.05.28-14.27.13:128][686]LogStaticLightingSystem: Lightmap texture memory:  0.4 MB (0.3 MB streaming, 0.0 MB non-streaming), 4 textures
+[2015.05.28-14.27.13:128][686]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2015.05.28-14.27.13:531][687]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.05.28-14.27.13:532][687]MapCheck: New page: Testleveledit - May 28, 2015, 6:27:13 AM
+[2015.05.28-14.27.13:750][687]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 218.127ms to complete.
+[2015.05.28-14.27.15:089][784]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.28-14.27.15:089][784]PIE: New page: PIE session: Testleveledit (May 28, 2015, 6:27:15 AM)
+[2015.05.28-14.27.15:096][784]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006560s)
+[2015.05.28-14.27.15:098][784]LogPlayLevel: PIE: World Init took: (0.001917s)
+[2015.05.28-14.27.15:098][784]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Testleveledit.Testleveledit to /Game/UEDPIE_0_Testleveledit.Testleveledit (0.008679s)
+[2015.05.28-14.27.15:202][784]LogWorld: Game class is 'GameMode'
+[2015.05.28-14.27.15:212][784]LogAIModule: Creating AISystem for world Testleveledit
+[2015.05.28-14.27.15:222][784]LogWorld: Bringing World /Game/UEDPIE_0_Testleveledit.Testleveledit up for play (max tick rate 0) at 2015.05.28-10.27.15
+[2015.05.28-14.27.15:224][784]LogWorld: Bringing up level for play took: 0.010029
+[2015.05.28-14.27.15:244][784]PIE: Info Play in editor start time for /Game/UEDPIE_0_Testleveledit -0.689
+[2015.05.28-14.27.42:641][653]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F3F2FC0
+[2015.05.28-14.27.43:897][757]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2015.05.28-14.27.53:273][535]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2015.05.28-14.28.03:747][168]LogEditorViewport: Clicking Background
+[2015.05.28-14.28.07:307][565]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2015.05.28-14.28.13:030][907]LogEditorViewport: Clicking Background
+[2015.05.28-14.28.35:381][363]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2015.05.28-14.28.36:393][443]Cmd: EDIT COPY
+[2015.05.28-14.28.39:871][732]Cmd: EDIT PASTE
+[2015.05.28-14.30.01:444][589]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2015.05.28-14.30.01:900][623]Cmd: EDIT COPY
+[2015.05.28-14.30.02:861][701]Cmd: EDIT PASTE
+[2015.05.28-14.31.21:747][631]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.28-14.31.21:747][631]PIE: New page: PIE session: Testleveledit (May 28, 2015, 6:31:21 AM)
+[2015.05.28-14.31.21:754][631]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006201s)
+[2015.05.28-14.31.21:755][631]LogPlayLevel: PIE: World Init took: (0.000960s)
+[2015.05.28-14.31.21:755][631]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Testleveledit.Testleveledit to /Game/UEDPIE_0_Testleveledit.Testleveledit (0.007384s)
+[2015.05.28-14.31.21:790][631]LogWorld: Game class is 'GameMode'
+[2015.05.28-14.31.21:792][631]LogAIModule: Creating AISystem for world Testleveledit
+[2015.05.28-14.31.21:799][631]LogWorld: Bringing World /Game/UEDPIE_0_Testleveledit.Testleveledit up for play (max tick rate 0) at 2015.05.28-10.31.21
+[2015.05.28-14.31.21:800][631]LogWorld: Bringing up level for play took: 0.007349
+[2015.05.28-14.31.21:803][631]PIE: Info Play in editor start time for /Game/UEDPIE_0_Testleveledit -0.13
+[2015.05.28-14.34.14:277][461]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F3D5B20
+[2015.05.28-14.34.30:614][800]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube9)
+[2015.05.28-14.34.35:750][215]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube9)
+[2015.05.28-14.34.36:215][249]Cmd: EDIT COPY
+[2015.05.28-14.34.42:800][799]Cmd: EDIT PASTE
+[2015.05.28-14.35.25:087][870]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube10)
+[2015.05.28-14.35.25:557][905]Cmd: EDIT COPY
+[2015.05.28-14.35.26:367][971]Cmd: EDIT PASTE
+[2015.05.28-14.36.03:315][507]Cmd: EDIT COPY
+[2015.05.28-14.36.03:916][556]Cmd: EDIT PASTE
+[2015.05.28-14.36.28:993][ 74]LogSavePackage: Save=131.866699ms
+[2015.05.28-14.36.28:993][ 74]LogSavePackage: Moving '../../../../../../Users/William/Documents/Unreal Projects/MyProject/Saved/Testleveledit_Auto1A5CF6D6B461F4402CC22DC82E047F21E.tmp' to '../../../../../../Users/William/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Testleveledit_Auto1.umap'
+[2015.05.28-14.36.29:010][ 74]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Testleveledit' took 0.255
+[2015.05.28-14.36.29:010][ 74]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.255
+[2015.05.28-14.36.30:000][138]Cmd: EDIT COPY
+[2015.05.28-14.36.30:562][173]Cmd: EDIT PASTE
+[2015.05.28-14.37.04:308][289]Cmd: EDIT COPY
+[2015.05.28-14.37.04:931][328]Cmd: EDIT PASTE
+[2015.05.28-14.37.27:643][721]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2015.05.28-14.37.54:349][432]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Testleveledit" FILE="../../../../../../Users/William/Documents/Unreal Projects/MyProject/Content/Testleveledit.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.28-14.37.54:500][432]LogSavePackage: Save=123.279198ms
+[2015.05.28-14.37.54:500][432]LogSavePackage: Moving '../../../../../../Users/William/Documents/Unreal Projects/MyProject/Saved/Testleveledit7ECD131B493AB17DA16923A3F63F6404.tmp' to '../../../../../../Users/William/Documents/Unreal Projects/MyProject/Content/Testleveledit.umap'
+[2015.05.28-14.37.54:538][432]LogFileHelpers: Saving map 'Testleveledit' took 0.303
+[2015.05.28-14.38.02:243][977]MapCheck: New page: Map Check
+[2015.05.28-14.38.02:257][977]LightingResults: New page: Lighting Build - May 28, 2015, 6:38:02 AM
+[2015.05.28-14.38.06:776][977]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.05.28-14.38.06:776][977]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.05.28-14.38.06:776][977]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.05.28-14.38.06:776][977]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.05.28-14.38.06:776][977]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.05.28-14.38.06:776][977]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.05.28-14.38.06:915][977]LogEditorBuildUtils: Build time 0:00:04
+[2015.05.28-14.38.46:841][821]Job is a success!
+[2015.05.28-14.38.46:988][822]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.05.28-14.38.47:376][822]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.05.28-14.38.47:380][822]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.05.28-14.38.47:397][822]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.05.28-14.38.47:572][822]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2015.05.28-14.38.47:587][822]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2015.05.28-14.38.47:629][822]Lightmass on WILLIAM-PC: 40.2 sec total, 1.56 sec importing, 3 ms setup, 5.50 sec photons, 32.2 sec processing, 0 ms extra exporting [101/101 mappings]. Threads: 1:04 min total, 25.3 sec processing.
+[2015.05.28-14.38.47:639][822]LogStaticLightingSystem: Illumination: 45.3 sec (631 ms encoding lightmaps)
+[2015.05.28-14.38.47:639][822]LogStaticLightingSystem: Lightmap texture memory:  0.4 MB (0.3 MB streaming, 0.0 MB non-streaming), 4 textures
+[2015.05.28-14.38.47:639][822]LogStaticLightingSystem: Shadowmap texture memory: 1.4 MB (1.3 MB streaming, 0.1 MB non-streaming), 4 textures
+[2015.05.28-14.38.48:310][823]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.05.28-14.38.48:310][823]MapCheck: New page: Testleveledit - May 28, 2015, 6:38:48 AM
+[2015.05.28-14.38.48:436][823]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 127.011ms to complete.
+[2015.05.28-14.38.48:456][823]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.28-14.38.48:456][823]PIE: New page: PIE session: Testleveledit (May 28, 2015, 6:38:48 AM)
+[2015.05.28-14.38.48:463][823]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006149s)
+[2015.05.28-14.38.48:464][823]LogPlayLevel: PIE: World Init took: (0.001029s)
+[2015.05.28-14.38.48:464][823]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Testleveledit.Testleveledit to /Game/UEDPIE_0_Testleveledit.Testleveledit (0.007375s)
+[2015.05.28-14.38.48:500][823]LogWorld: Game class is 'GameMode'
+[2015.05.28-14.38.48:502][823]LogAIModule: Creating AISystem for world Testleveledit
+[2015.05.28-14.38.48:510][823]LogWorld: Bringing World /Game/UEDPIE_0_Testleveledit.Testleveledit up for play (max tick rate 0) at 2015.05.28-10.38.48
+[2015.05.28-14.38.48:511][823]LogWorld: Bringing up level for play took: 0.008073
+[2015.05.28-14.38.48:514][823]PIE: Info Play in editor start time for /Game/UEDPIE_0_Testleveledit 0.585
+[2015.05.28-14.39.24:847][ 62]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C786520
+[2015.05.28-14.39.25:796][127]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2015.05.28-14.39.57:699][344]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube13)
+[2015.05.28-14.40.11:709][140]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2015.05.28-14.40.13:079][230]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2015.05.28-14.40.15:482][390]Cmd: TRANSACTION UNDO
+[2015.05.28-14.40.15:482][390]LogEditorTransaction: Undo Clicking on Actors
+[2015.05.28-14.40.16:286][427]Cmd: TRANSACTION UNDO
+[2015.05.28-14.40.16:286][427]LogEditorTransaction: Undo Clicking on Actors
+[2015.05.28-14.40.17:824][526]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2015.05.28-14.40.18:756][584]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2015.05.28-14.40.19:356][622]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2015.05.28-14.40.23:772][925]Cmd: TRANSACTION UNDO
+[2015.05.28-14.40.23:772][925]LogEditorTransaction: Undo Move Actors
+[2015.05.28-14.41.59:465][483]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube12)
+[2015.05.28-14.42.08:768][218]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2015.05.28-14.42.13:521][613]LogEditorViewport: Clicking Background
+[2015.05.28-14.42.49:245][526]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Testleveledit.HQ_Lightmap0_1. Streaming mips will be recached.
+[2015.05.28-14.42.49:247][526]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.05.28-14.43.17:296][874]LogEditorViewport: Clicking Background
+[2015.05.28-14.43.18:046][957]LogEditorViewport: Clicking on Actor (LMB): Blueprint_WallSconce_C (Blueprint_WallSconce2)
+[2015.05.28-14.43.20:426][152]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_l7)
+[2015.05.28-14.43.24:465][484]LogEditorViewport: Clicking on Actor (LMB): Blueprint_WallSconce_C (Blueprint_WallSconce2)
+[2015.05.28-14.44.02:528][528]MapCheck: New page: Map Check
+[2015.05.28-14.44.02:544][528]LightingResults: New page: Lighting Build - May 28, 2015, 6:44:02 AM
+[2015.05.28-14.44.07:069][528]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.05.28-14.44.07:069][528]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.05.28-14.44.07:069][528]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.05.28-14.44.07:070][528]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.05.28-14.44.07:070][528]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.05.28-14.44.07:070][528]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.05.28-14.44.07:170][528]LogEditorBuildUtils: Build time 0:00:04
+[2015.05.28-14.44.13:391][921]Job is a success!
+[2015.05.28-14.44.13:548][922]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.05.28-14.44.13:944][922]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.05.28-14.44.13:949][922]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.05.28-14.44.13:965][922]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.05.28-14.44.14:145][922]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2015.05.28-14.44.14:159][922]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2015.05.28-14.44.14:202][922]Lightmass on WILLIAM-PC: 6.60 sec total, 134 ms importing, 8 ms setup, 845 ms photons, 5.59 sec processing, 0 ms extra exporting [101/101 mappings]. Threads: 11.1 sec total, 4.20 sec processing.
+[2015.05.28-14.44.14:213][922]LogStaticLightingSystem: Illumination: 11.6 sec (645 ms encoding lightmaps)
+[2015.05.28-14.44.14:213][922]LogStaticLightingSystem: Lightmap texture memory:  0.4 MB (0.3 MB streaming, 0.0 MB non-streaming), 4 textures
+[2015.05.28-14.44.14:213][922]LogStaticLightingSystem: Shadowmap texture memory: 2.1 MB (2.0 MB streaming, 0.1 MB non-streaming), 6 textures
+[2015.05.28-14.44.15:084][923]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.05.28-14.44.15:084][923]MapCheck: New page: Testleveledit - May 28, 2015, 6:44:15 AM
+[2015.05.28-14.44.15:208][923]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 124.57ms to complete.
+[2015.05.28-14.44.16:073][981]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.28-14.44.16:073][981]PIE: New page: PIE session: Testleveledit (May 28, 2015, 6:44:16 AM)
+[2015.05.28-14.44.16:080][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007094s)
+[2015.05.28-14.44.16:082][981]LogPlayLevel: PIE: World Init took: (0.001697s)
+[2015.05.28-14.44.16:082][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Testleveledit.Testleveledit to /Game/UEDPIE_0_Testleveledit.Testleveledit (0.008982s)
+[2015.05.28-14.44.16:128][981]LogWorld: Game class is 'GameMode'
+[2015.05.28-14.44.16:130][981]LogAIModule: Creating AISystem for world Testleveledit
+[2015.05.28-14.44.16:138][981]LogWorld: Bringing World /Game/UEDPIE_0_Testleveledit.Testleveledit up for play (max tick rate 0) at 2015.05.28-10.44.16
+[2015.05.28-14.44.16:139][981]LogWorld: Bringing up level for play took: 0.008086
+[2015.05.28-14.44.16:142][981]PIE: Info Play in editor start time for /Game/UEDPIE_0_Testleveledit 0.22
+[2015.05.28-14.44.25:956][861]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000118A3BA0
+[2015.05.28-14.44.48:535][754]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.28-14.44.48:535][754]PIE: New page: PIE session: Testleveledit (May 28, 2015, 6:44:48 AM)
+[2015.05.28-14.44.48:544][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007336s)
+[2015.05.28-14.44.48:545][754]LogPlayLevel: PIE: World Init took: (0.001764s)
+[2015.05.28-14.44.48:546][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Testleveledit.Testleveledit to /Game/UEDPIE_0_Testleveledit.Testleveledit (0.009306s)
+[2015.05.28-14.44.48:587][754]LogWorld: Game class is 'GameMode'
+[2015.05.28-14.44.48:589][754]LogAIModule: Creating AISystem for world Testleveledit
+[2015.05.28-14.44.48:596][754]LogWorld: Bringing World /Game/UEDPIE_0_Testleveledit.Testleveledit up for play (max tick rate 0) at 2015.05.28-10.44.48
+[2015.05.28-14.44.48:597][754]LogWorld: Bringing up level for play took: 0.007982
+[2015.05.28-14.44.48:600][754]PIE: Info Play in editor start time for /Game/UEDPIE_0_Testleveledit 0.678
+[2015.05.28-14.45.02:348][168]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003D537060
+[2015.05.28-14.45.09:229][745]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.28-14.45.09:229][745]PIE: New page: PIE session: Testleveledit (May 28, 2015, 6:45:09 AM)
+[2015.05.28-14.45.09:236][745]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006193s)
+[2015.05.28-14.45.09:237][745]LogPlayLevel: PIE: World Init took: (0.000951s)
+[2015.05.28-14.45.09:237][745]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Testleveledit.Testleveledit to /Game/UEDPIE_0_Testleveledit.Testleveledit (0.007417s)
+[2015.05.28-14.45.09:284][745]LogWorld: Game class is 'GameMode'
+[2015.05.28-14.45.09:286][745]LogAIModule: Creating AISystem for world Testleveledit
+[2015.05.28-14.45.09:294][745]LogWorld: Bringing World /Game/UEDPIE_0_Testleveledit.Testleveledit up for play (max tick rate 0) at 2015.05.28-10.45.09
+[2015.05.28-14.45.09:295][745]LogWorld: Bringing up level for play took: 0.007864
+[2015.05.28-14.45.09:297][745]PIE: Info Play in editor start time for /Game/UEDPIE_0_Testleveledit -0.625
+[2015.05.28-14.45.10:905][905]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000224458A0
+[2015.05.28-14.45.11:968][994]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.28-14.45.11:968][994]PIE: New page: PIE session: Testleveledit (May 28, 2015, 6:45:11 AM)
+[2015.05.28-14.45.11:975][994]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006196s)
+[2015.05.28-14.45.11:976][994]LogPlayLevel: PIE: World Init took: (0.000831s)
+[2015.05.28-14.45.11:976][994]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Testleveledit.Testleveledit to /Game/UEDPIE_0_Testleveledit.Testleveledit (0.007371s)
+[2015.05.28-14.45.12:020][994]LogWorld: Game class is 'GameMode'
+[2015.05.28-14.45.12:022][994]LogAIModule: Creating AISystem for world Testleveledit
+[2015.05.28-14.45.12:029][994]LogWorld: Bringing World /Game/UEDPIE_0_Testleveledit.Testleveledit up for play (max tick rate 0) at 2015.05.28-10.45.12
+[2015.05.28-14.45.12:030][994]LogWorld: Bringing up level for play took: 0.007987
+[2015.05.28-14.45.12:033][994]PIE: Info Play in editor start time for /Game/UEDPIE_0_Testleveledit 0.111
+[2015.05.28-14.45.19:270][732]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000118A2B60
+[2015.05.28-14.45.24:269][126]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.28-14.45.24:270][126]PIE: New page: PIE session: Testleveledit (May 28, 2015, 6:45:24 AM)
+[2015.05.28-14.45.24:278][126]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007642s)
+[2015.05.28-14.45.24:279][126]LogPlayLevel: PIE: World Init took: (0.001346s)
+[2015.05.28-14.45.24:279][126]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Testleveledit.Testleveledit to /Game/UEDPIE_0_Testleveledit.Testleveledit (0.009200s)
+[2015.05.28-14.45.24:320][126]LogWorld: Game class is 'GameMode'
+[2015.05.28-14.45.24:321][126]LogAIModule: Creating AISystem for world Testleveledit
+[2015.05.28-14.45.24:331][126]LogWorld: Bringing World /Game/UEDPIE_0_Testleveledit.Testleveledit up for play (max tick rate 0) at 2015.05.28-10.45.24
+[2015.05.28-14.45.24:332][126]LogWorld: Bringing up level for play took: 0.010124
+[2015.05.28-14.45.24:335][126]PIE: Info Play in editor start time for /Game/UEDPIE_0_Testleveledit 0.413
+[2015.05.28-14.45.36:379][229]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002346B240
+[2015.05.28-14.45.38:271][351]MapCheck: New page: Map Check
+[2015.05.28-14.45.38:289][351]LightingResults: New page: Lighting Build - May 28, 2015, 6:45:38 AM
+[2015.05.28-14.45.42:808][351]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.05.28-14.45.42:809][351]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.05.28-14.45.42:809][351]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.05.28-14.45.42:809][351]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.05.28-14.45.42:809][351]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.05.28-14.45.42:809][351]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.05.28-14.45.42:914][351]LogEditorBuildUtils: Build time 0:00:04
+[2015.05.28-14.45.49:188][751]Job is a success!
+[2015.05.28-14.45.49:326][752]LogTexture:Display: Building textures: HQ_Lightmap2_1 (AutoDXT)
+[2015.05.28-14.45.49:724][752]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.05.28-14.45.49:728][752]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.05.28-14.45.49:746][752]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.05.28-14.45.49:928][752]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2015.05.28-14.45.49:942][752]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2015.05.28-14.45.49:984][752]Lightmass on WILLIAM-PC: 6.65 sec total, 206 ms importing, 4 ms setup, 898 ms photons, 5.49 sec processing, 0 ms extra exporting [101/101 mappings]. Threads: 10.9 sec total, 4.08 sec processing.
+[2015.05.28-14.45.49:995][752]LogStaticLightingSystem: Illumination: 11.6 sec (649 ms encoding lightmaps)
+[2015.05.28-14.45.49:995][752]LogStaticLightingSystem: Lightmap texture memory:  0.4 MB (0.3 MB streaming, 0.0 MB non-streaming), 4 textures
+[2015.05.28-14.45.49:995][752]LogStaticLightingSystem: Shadowmap texture memory: 2.8 MB (2.7 MB streaming, 0.2 MB non-streaming), 8 textures
+[2015.05.28-14.45.50:820][753]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.05.28-14.45.50:821][753]MapCheck: New page: Testleveledit - May 28, 2015, 6:45:50 AM
+[2015.05.28-14.45.50:941][753]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 121.257ms to complete.
+[2015.05.28-14.45.52:021][836]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.28-14.45.52:021][836]PIE: New page: PIE session: Testleveledit (May 28, 2015, 6:45:52 AM)
+[2015.05.28-14.45.52:028][836]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006292s)
+[2015.05.28-14.45.52:029][836]LogPlayLevel: PIE: World Init took: (0.000861s)
+[2015.05.28-14.45.52:029][836]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Testleveledit.Testleveledit to /Game/UEDPIE_0_Testleveledit.Testleveledit (0.007348s)
+[2015.05.28-14.45.52:072][836]LogWorld: Game class is 'GameMode'
+[2015.05.28-14.45.52:074][836]LogAIModule: Creating AISystem for world Testleveledit
+[2015.05.28-14.45.52:081][836]LogWorld: Bringing World /Game/UEDPIE_0_Testleveledit.Testleveledit up for play (max tick rate 0) at 2015.05.28-10.45.52
+[2015.05.28-14.45.52:083][836]LogWorld: Bringing up level for play took: 0.007978
+[2015.05.28-14.45.52:085][836]PIE: Info Play in editor start time for /Game/UEDPIE_0_Testleveledit 0.177
+[2015.05.28-14.46.03:261][992]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001EE70D60
+[2015.05.28-14.46.23:016][687]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.28-14.46.23:017][687]PIE: New page: PIE session: Testleveledit (May 28, 2015, 6:46:23 AM)
+[2015.05.28-14.46.23:023][687]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006275s)
+[2015.05.28-14.46.23:024][687]LogPlayLevel: PIE: World Init took: (0.000866s)
+[2015.05.28-14.46.23:025][687]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Testleveledit.Testleveledit to /Game/UEDPIE_0_Testleveledit.Testleveledit (0.007338s)
+[2015.05.28-14.46.23:066][687]LogWorld: Game class is 'GameMode'
+[2015.05.28-14.46.23:068][687]LogAIModule: Creating AISystem for world Testleveledit
+[2015.05.28-14.46.23:076][687]LogWorld: Bringing World /Game/UEDPIE_0_Testleveledit.Testleveledit up for play (max tick rate 0) at 2015.05.28-10.46.23
+[2015.05.28-14.46.23:077][687]LogWorld: Bringing up level for play took: 0.008303
+[2015.05.28-14.46.23:080][687]PIE: Info Play in editor start time for /Game/UEDPIE_0_Testleveledit -0.829
+[2015.05.28-14.46.31:098][499]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F3D59E0
+[2015.05.28-14.46.35:764][871]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.28-14.46.35:765][871]PIE: New page: PIE session: Testleveledit (May 28, 2015, 6:46:35 AM)
+[2015.05.28-14.46.35:772][871]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007096s)
+[2015.05.28-14.46.35:774][871]LogPlayLevel: PIE: World Init took: (0.001480s)
+[2015.05.28-14.46.35:774][871]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Testleveledit.Testleveledit to /Game/UEDPIE_0_Testleveledit.Testleveledit (0.008796s)
+[2015.05.28-14.46.35:820][871]LogWorld: Game class is 'GameMode'
+[2015.05.28-14.46.35:822][871]LogAIModule: Creating AISystem for world Testleveledit
+[2015.05.28-14.46.35:830][871]LogWorld: Bringing World /Game/UEDPIE_0_Testleveledit.Testleveledit up for play (max tick rate 0) at 2015.05.28-10.46.35
+[2015.05.28-14.46.35:831][871]LogWorld: Bringing up level for play took: 0.008406
+[2015.05.28-14.46.35:834][871]PIE: Info Play in editor start time for /Game/UEDPIE_0_Testleveledit -0.075
+[2015.05.28-14.46.59:690][ 56]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CB228E0
+[2015.05.28-14.47.01:614][221]LogEditorViewport: Clicking Background
+[2015.05.28-14.47.17:818][973]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_r2)
+[2015.05.28-14.47.34:536][148]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_r1)
+[2015.05.28-14.47.55:420][700]LogEditorViewport: Clicking on Actor (LMB): Blueprint_WallSconce_C (Blueprint_WallSconce)
+[2015.05.28-14.48.01:902][173]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.28-14.48.01:902][173]PIE: New page: PIE session: Testleveledit (May 28, 2015, 6:48:01 AM)
+[2015.05.28-14.48.01:909][173]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006712s)
+[2015.05.28-14.48.01:910][173]LogPlayLevel: PIE: World Init took: (0.000994s)
+[2015.05.28-14.48.01:911][173]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Testleveledit.Testleveledit to /Game/UEDPIE_0_Testleveledit.Testleveledit (0.008030s)
+[2015.05.28-14.48.01:962][173]LogWorld: Game class is 'GameMode'
+[2015.05.28-14.48.01:964][173]LogAIModule: Creating AISystem for world Testleveledit
+[2015.05.28-14.48.01:972][173]LogWorld: Bringing World /Game/UEDPIE_0_Testleveledit.Testleveledit up for play (max tick rate 0) at 2015.05.28-10.48.01
+[2015.05.28-14.48.01:974][173]LogWorld: Bringing up level for play took: 0.008259
+[2015.05.28-14.48.01:977][173]PIE: Info Play in editor start time for /Game/UEDPIE_0_Testleveledit 0.068
+[2015.05.28-14.48.11:598][982]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001EE714E0
+[2015.05.28-14.48.12:625][ 61]Cmd: SELECT NONE
+[2015.05.28-14.48.17:321][471]MapCheck: New page: Map Check
+[2015.05.28-14.48.17:346][471]LightingResults: New page: Lighting Build - May 28, 2015, 6:48:17 AM
+[2015.05.28-14.48.21:863][471]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.05.28-14.48.21:863][471]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.05.28-14.48.21:863][471]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.05.28-14.48.21:863][471]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.05.28-14.48.21:863][471]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.05.28-14.48.21:863][471]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.05.28-14.48.21:962][471]LogEditorBuildUtils: Build time 0:00:04
+[2015.05.28-14.48.44:540][582]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.05.28-14.48.49:118][932]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.28-14.48.52:888][230]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.28-14.48.58:259][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Testleveledit" FILE="../../../../../../Users/William/Documents/Unreal Projects/MyProject/Content/Testleveledit.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.28-14.48.58:437][619]LogSavePackage: Save=138.715942ms
+[2015.05.28-14.48.58:437][619]LogSavePackage: Moving '../../../../../../Users/William/Documents/Unreal Projects/MyProject/Saved/Testleveledit8C9CFFBA4F2BEAB7E81F9DA1F4290E54.tmp' to '../../../../../../Users/William/Documents/Unreal Projects/MyProject/Content/Testleveledit.umap'
+[2015.05.28-14.48.58:475][619]LogFileHelpers: Saving map 'Testleveledit' took 0.343
+[2015.05.28-14.48.59:265][683]LogEditorViewport: Clicking Background
+[2015.05.28-14.49.30:603][690]Job is a success!
+[2015.05.28-14.49.30:760][691]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.05.28-14.49.31:155][691]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.05.28-14.49.31:159][691]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.05.28-14.49.31:177][691]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.05.28-14.49.31:354][691]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2015.05.28-14.49.31:368][691]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2015.05.28-14.49.31:409][691]Lightmass on WILLIAM-PC: 1:07 min total, 2.16 sec importing, 42 ms setup, 11.0 sec photons, 54.2 sec processing, 0 ms extra exporting [101/101 mappings]. Threads: 1:48 min total, 38.7 sec processing.
+[2015.05.28-14.49.31:421][691]LogStaticLightingSystem: Illumination: 1:14 min (638 ms encoding lightmaps)
+[2015.05.28-14.49.31:421][691]LogStaticLightingSystem: Lightmap texture memory:  0.4 MB (0.3 MB streaming, 0.0 MB non-streaming), 4 textures
+[2015.05.28-14.49.31:421][691]LogStaticLightingSystem: Shadowmap texture memory: 3.5 MB (3.3 MB streaming, 0.2 MB non-streaming), 10 textures
+[2015.05.28-14.49.31:647][692]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.05.28-14.49.31:647][692]MapCheck: New page: Testleveledit - May 28, 2015, 6:49:31 AM
+[2015.05.28-14.49.31:767][692]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 121.035ms to complete.
+[2015.05.28-14.49.38:898][447]LogEditorViewport: Clicking Background
+[2015.05.28-14.49.39:982][551]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.28-14.49.39:982][551]PIE: New page: PIE session: Testleveledit (May 28, 2015, 6:49:39 AM)
+[2015.05.28-14.49.39:989][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006352s)
+[2015.05.28-14.49.39:990][551]LogPlayLevel: PIE: World Init took: (0.000949s)
+[2015.05.28-14.49.39:990][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Testleveledit.Testleveledit to /Game/UEDPIE_0_Testleveledit.Testleveledit (0.007501s)
+[2015.05.28-14.49.40:029][551]LogWorld: Game class is 'GameMode'
+[2015.05.28-14.49.40:031][551]LogAIModule: Creating AISystem for world Testleveledit
+[2015.05.28-14.49.40:039][551]LogWorld: Bringing World /Game/UEDPIE_0_Testleveledit.Testleveledit up for play (max tick rate 0) at 2015.05.28-10.49.40
+[2015.05.28-14.49.40:040][551]LogWorld: Bringing up level for play took: 0.007936
+[2015.05.28-14.49.40:043][551]PIE: Info Play in editor start time for /Game/UEDPIE_0_Testleveledit 0.137
+[2015.05.28-14.49.54:342][  7]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F3D4860
+[2015.05.28-14.49.56:509][240]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2015.05.28-14.50.37:870][143]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2015.05.28-14.51.48:028][ 61]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_l5)
+[2015.05.28-14.51.48:564][ 98]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2015.05.28-14.51.55:075][583]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2015.05.28-14.51.56:051][655]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2015.05.28-14.53.28:861][ 25]MapCheck: New page: Map Check
+[2015.05.28-14.53.28:881][ 25]LightingResults: New page: Lighting Build - May 28, 2015, 6:53:28 AM
+[2015.05.28-14.53.33:401][ 25]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.05.28-14.53.33:401][ 25]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.05.28-14.53.33:401][ 25]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.05.28-14.53.33:401][ 25]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.05.28-14.53.33:401][ 25]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.05.28-14.53.33:401][ 25]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.05.28-14.53.33:500][ 25]LogEditorBuildUtils: Build time 0:00:04
+[2015.05.28-14.53.38:562][273]LogEditorViewport: Clicking Background
+[2015.05.28-14.53.41:437][478]Job is a success!
+[2015.05.28-14.53.41:581][479]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.05.28-14.53.41:942][479]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.05.28-14.53.41:947][479]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.05.28-14.53.41:964][479]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.05.28-14.53.42:141][479]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2015.05.28-14.53.42:177][479]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8)
+[2015.05.28-14.53.42:215][479]Lightmass on WILLIAM-PC: 8.04 sec total, 173 ms importing, 5 ms setup, 1.09 sec photons, 6.72 sec processing, 0 ms extra exporting [101/101 mappings]. Threads: 13.4 sec total, 5.28 sec processing.
+[2015.05.28-14.53.42:226][479]LogStaticLightingSystem: Illumination: 13.3 sec (628 ms encoding lightmaps)
+[2015.05.28-14.53.42:226][479]LogStaticLightingSystem: Lightmap texture memory:  0.4 MB (0.3 MB streaming, 0.0 MB non-streaming), 4 textures
+[2015.05.28-14.53.42:227][479]LogStaticLightingSystem: Shadowmap texture memory: 4.3 MB (4.0 MB streaming, 0.3 MB non-streaming), 12 textures
+[2015.05.28-14.53.42:446][480]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.05.28-14.53.42:446][480]MapCheck: New page: Testleveledit - May 28, 2015, 6:53:42 AM
+[2015.05.28-14.53.42:567][480]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 121.182ms to complete.
+[2015.05.28-14.53.43:383][550]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.28-14.53.43:384][550]PIE: New page: PIE session: Testleveledit (May 28, 2015, 6:53:43 AM)
+[2015.05.28-14.53.43:391][550]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006493s)
+[2015.05.28-14.53.43:392][550]LogPlayLevel: PIE: World Init took: (0.000984s)
+[2015.05.28-14.53.43:392][550]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Testleveledit.Testleveledit to /Game/UEDPIE_0_Testleveledit.Testleveledit (0.007674s)
+[2015.05.28-14.53.43:437][550]LogWorld: Game class is 'GameMode'
+[2015.05.28-14.53.43:439][550]LogAIModule: Creating AISystem for world Testleveledit
+[2015.05.28-14.53.43:446][550]LogWorld: Bringing World /Game/UEDPIE_0_Testleveledit.Testleveledit up for play (max tick rate 0) at 2015.05.28-10.53.43
+[2015.05.28-14.53.43:447][550]LogWorld: Bringing up level for play took: 0.007984
+[2015.05.28-14.53.43:450][550]PIE: Info Play in editor start time for /Game/UEDPIE_0_Testleveledit -0.451
+[2015.05.28-14.54.04:515][677]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022444B80
+[2015.05.28-14.54.05:342][763]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_r2)
+[2015.05.28-14.54.40:369][192]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.05.28-14.54.57:491][318]LogUnrealMath: Expression Error : No value recognized
+[2015.05.28-14.54.57:492][318]LogUnrealMath: Expression Error : Error in expression
+[2015.05.28-14.54.57:492][318]LogUnrealMath: Expression Error : No value recognized
+[2015.05.28-14.54.57:492][318]LogUnrealMath: Expression Error : Error in expression
+[2015.05.28-14.55.07:159][926]LogUnrealMath: Expression Error : No value recognized
+[2015.05.28-14.55.07:159][926]LogUnrealMath: Expression Error : Error in expression
+[2015.05.28-14.55.07:159][926]LogUnrealMath: Expression Error : No value recognized
+[2015.05.28-14.55.07:159][926]LogUnrealMath: Expression Error : Error in expression
+[2015.05.28-14.55.32:259][725]LogEditorViewport: Clicking Background
+[2015.05.28-14.55.33:021][803]Cmd: TRANSACTION UNDO
+[2015.05.28-14.55.33:021][803]LogEditorTransaction: Undo Clicking Background
+[2015.05.28-14.55.33:521][821]Cmd: TRANSACTION UNDO
+[2015.05.28-14.55.33:521][821]LogEditorTransaction: Undo Set actor location
+[2015.05.28-14.55.36:797][ 14]Cmd: TRANSACTION UNDO
+[2015.05.28-14.55.36:797][ 14]LogEditorTransaction: Undo Move Actors
+[2015.05.28-14.55.36:801][ 14]LogActorComponent: ~FComponentReregisterContext: (/Game/Testleveledit.Testleveledit:PersistentLevel.Cube3_29.StaticMeshComponent0) Component already registered.
+[2015.05.28-14.55.43:969][429]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_r2)
+[2015.05.28-14.55.59:431][345]LogEditorViewport: Clicking Background
+[2015.05.28-14.56.06:165][931]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor1)
+[2015.05.28-14.56.07:957][ 49]LogEditorViewport: Clicking Background
+[2015.05.28-14.56.10:397][265]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube9)
+[2015.05.28-14.56.11:049][304]LogEditorViewport: Clicking Background
+[2015.05.28-14.56.34:653][351]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight3)
+[2015.05.28-14.56.50:382][465]LogEditorViewport: Clicking Background
+[2015.05.28-14.58.26:229][228]LogEditorViewport: Clicking Background
+[2015.05.28-14.58.28:942][539]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.28-14.58.28:942][539]PIE: New page: PIE session: Testleveledit (May 28, 2015, 6:58:28 AM)
+[2015.05.28-14.58.28:950][539]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006770s)
+[2015.05.28-14.58.28:952][539]LogPlayLevel: PIE: World Init took: (0.002783s)
+[2015.05.28-14.58.28:953][539]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Testleveledit.Testleveledit to /Game/UEDPIE_0_Testleveledit.Testleveledit (0.009769s)
+[2015.05.28-14.58.28:992][539]LogWorld: Game class is 'GameMode'
+[2015.05.28-14.58.28:994][539]LogAIModule: Creating AISystem for world Testleveledit
+[2015.05.28-14.58.29:002][539]LogWorld: Bringing World /Game/UEDPIE_0_Testleveledit.Testleveledit up for play (max tick rate 0) at 2015.05.28-10.58.29
+[2015.05.28-14.58.29:003][539]LogWorld: Bringing up level for play took: 0.008507
+[2015.05.28-14.58.29:007][539]PIE: Info Play in editor start time for /Game/UEDPIE_0_Testleveledit -0.894
+[2015.05.28-14.58.52:263][118]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022446D40
+[2015.05.28-14.58.52:915][193]Cmd: SELECT NONE
+[2015.05.28-15.00.01:333][952]LogSavePackage: Save=137.879242ms
+[2015.05.28-15.00.01:333][952]LogSavePackage: Moving '../../../../../../Users/William/Documents/Unreal Projects/MyProject/Saved/Testleveledit_Auto25CCF225641378C294E529E96B1C6CB44.tmp' to '../../../../../../Users/William/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Testleveledit_Auto2.umap'
+[2015.05.28-15.00.01:341][952]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Testleveledit' took 0.234
+[2015.05.28-15.00.01:341][952]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.234
+[2015.05.28-15.00.21:077][640]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube16)
+[2015.05.28-15.01.35:074][758]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.28-15.01.35:074][758]PIE: New page: PIE session: Testleveledit (May 28, 2015, 7:01:35 AM)
+[2015.05.28-15.01.35:082][758]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007456s)
+[2015.05.28-15.01.35:084][758]LogPlayLevel: PIE: World Init took: (0.001577s)
+[2015.05.28-15.01.35:084][758]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Testleveledit.Testleveledit to /Game/UEDPIE_0_Testleveledit.Testleveledit (0.009240s)
+[2015.05.28-15.01.35:122][758]LogWorld: Game class is 'GameMode'
+[2015.05.28-15.01.35:124][758]LogAIModule: Creating AISystem for world Testleveledit
+[2015.05.28-15.01.35:134][758]LogWorld: Bringing World /Game/UEDPIE_0_Testleveledit.Testleveledit up for play (max tick rate 0) at 2015.05.28-11.01.35
+[2015.05.28-15.01.35:135][758]LogWorld: Bringing up level for play took: 0.010563
+[2015.05.28-15.01.35:138][758]PIE: Info Play in editor start time for /Game/UEDPIE_0_Testleveledit -0.762
+[2015.05.28-15.01.47:757][960]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E2D3600
+[2015.05.28-15.04.09:215][950]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.28-15.04.09:216][950]PIE: New page: PIE session: Testleveledit (May 28, 2015, 7:04:09 AM)
+[2015.05.28-15.04.09:223][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006779s)
+[2015.05.28-15.04.09:224][950]LogPlayLevel: PIE: World Init took: (0.000969s)
+[2015.05.28-15.04.09:224][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Testleveledit.Testleveledit to /Game/UEDPIE_0_Testleveledit.Testleveledit (0.007967s)
+[2015.05.28-15.04.09:261][950]LogWorld: Game class is 'GameMode'
+[2015.05.28-15.04.09:263][950]LogAIModule: Creating AISystem for world Testleveledit
+[2015.05.28-15.04.09:272][950]LogWorld: Bringing World /Game/UEDPIE_0_Testleveledit.Testleveledit up for play (max tick rate 0) at 2015.05.28-11.04.09
+[2015.05.28-15.04.09:273][950]LogWorld: Bringing up level for play took: 0.009388
+[2015.05.28-15.04.09:277][950]PIE: Info Play in editor start time for /Game/UEDPIE_0_Testleveledit -0.624
+[2015.05.28-15.04.31:446][120]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E1699E0
+[2015.05.28-15.04.58:376][147]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.28-15.04.58:376][147]PIE: New page: PIE session: Testleveledit (May 28, 2015, 7:04:58 AM)
+[2015.05.28-15.04.58:383][147]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006209s)
+[2015.05.28-15.04.58:384][147]LogPlayLevel: PIE: World Init took: (0.000998s)
+[2015.05.28-15.04.58:384][147]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Testleveledit.Testleveledit to /Game/UEDPIE_0_Testleveledit.Testleveledit (0.007414s)
+[2015.05.28-15.04.58:421][147]LogWorld: Game class is 'GameMode'
+[2015.05.28-15.04.58:423][147]LogAIModule: Creating AISystem for world Testleveledit
+[2015.05.28-15.04.58:432][147]LogWorld: Bringing World /Game/UEDPIE_0_Testleveledit.Testleveledit up for play (max tick rate 0) at 2015.05.28-11.04.58
+[2015.05.28-15.04.58:433][147]LogWorld: Bringing up level for play took: 0.009516
+[2015.05.28-15.04.58:436][147]PIE: Info Play in editor start time for /Game/UEDPIE_0_Testleveledit 0.535
+[2015.05.28-15.05.06:469][912]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E168400
+[2015.05.28-15.05.21:096][164]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.28-15.05.21:096][164]PIE: New page: PIE session: Testleveledit (May 28, 2015, 7:05:21 AM)
+[2015.05.28-15.05.21:103][164]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006220s)
+[2015.05.28-15.05.21:104][164]LogPlayLevel: PIE: World Init took: (0.000986s)
+[2015.05.28-15.05.21:104][164]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Testleveledit.Testleveledit to /Game/UEDPIE_0_Testleveledit.Testleveledit (0.007397s)
+[2015.05.28-15.05.21:139][164]LogWorld: Game class is 'GameMode'
+[2015.05.28-15.05.21:141][164]LogAIModule: Creating AISystem for world Testleveledit
+[2015.05.28-15.05.21:149][164]LogWorld: Bringing World /Game/UEDPIE_0_Testleveledit.Testleveledit up for play (max tick rate 0) at 2015.05.28-11.05.21
+[2015.05.28-15.05.21:151][164]LogWorld: Bringing up level for play took: 0.008513
+[2015.05.28-15.05.21:153][164]PIE: Info Play in editor start time for /Game/UEDPIE_0_Testleveledit -0.747
+[2015.05.28-15.05.39:035][897]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E168180
+[2015.05.28-15.06.05:769][958]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.28-15.06.05:770][958]PIE: New page: PIE session: Testleveledit (May 28, 2015, 7:06:05 AM)
+[2015.05.28-15.06.05:777][958]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006427s)
+[2015.05.28-15.06.05:778][958]LogPlayLevel: PIE: World Init took: (0.000960s)
+[2015.05.28-15.06.05:778][958]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Testleveledit.Testleveledit to /Game/UEDPIE_0_Testleveledit.Testleveledit (0.007584s)
+[2015.05.28-15.06.05:814][958]LogWorld: Game class is 'GameMode'
+[2015.05.28-15.06.05:816][958]LogAIModule: Creating AISystem for world Testleveledit
+[2015.05.28-15.06.05:824][958]LogWorld: Bringing World /Game/UEDPIE_0_Testleveledit.Testleveledit up for play (max tick rate 0) at 2015.05.28-11.06.05
+[2015.05.28-15.06.05:826][958]LogWorld: Bringing up level for play took: 0.008437
+[2015.05.28-15.06.05:828][958]PIE: Info Play in editor start time for /Game/UEDPIE_0_Testleveledit -0.073
+[2015.05.28-15.06.11:896][635]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E16AF20
+[2015.05.28-15.06.19:964][287]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.28-15.06.19:964][287]PIE: New page: PIE session: Testleveledit (May 28, 2015, 7:06:19 AM)
+[2015.05.28-15.06.19:971][287]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006275s)
+[2015.05.28-15.06.19:972][287]LogPlayLevel: PIE: World Init took: (0.000835s)
+[2015.05.28-15.06.19:972][287]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Testleveledit.Testleveledit to /Game/UEDPIE_0_Testleveledit.Testleveledit (0.007302s)
+[2015.05.28-15.06.20:007][287]LogWorld: Game class is 'GameMode'
+[2015.05.28-15.06.20:009][287]LogAIModule: Creating AISystem for world Testleveledit
+[2015.05.28-15.06.20:017][287]LogWorld: Bringing World /Game/UEDPIE_0_Testleveledit.Testleveledit up for play (max tick rate 0) at 2015.05.28-11.06.20
+[2015.05.28-15.06.20:018][287]LogWorld: Bringing up level for play took: 0.008328
+[2015.05.28-15.06.20:021][287]PIE: Info Play in editor start time for /Game/UEDPIE_0_Testleveledit 0.12
+[2015.05.28-15.06.25:055][826]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E16BC40
+[2015.05.28-15.06.32:975][472]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.28-15.06.32:976][472]PIE: New page: PIE session: Testleveledit (May 28, 2015, 7:06:32 AM)
+[2015.05.28-15.06.32:983][472]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006546s)
+[2015.05.28-15.06.32:985][472]LogPlayLevel: PIE: World Init took: (0.002377s)
+[2015.05.28-15.06.32:985][472]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Testleveledit.Testleveledit to /Game/UEDPIE_0_Testleveledit.Testleveledit (0.009133s)
+[2015.05.28-15.06.33:024][472]LogWorld: Game class is 'GameMode'
+[2015.05.28-15.06.33:026][472]LogAIModule: Creating AISystem for world Testleveledit
+[2015.05.28-15.06.33:033][472]LogWorld: Bringing World /Game/UEDPIE_0_Testleveledit.Testleveledit up for play (max tick rate 0) at 2015.05.28-11.06.33
+[2015.05.28-15.06.33:034][472]LogWorld: Bringing up level for play took: 0.008116
+[2015.05.28-15.06.33:037][472]PIE: Info Play in editor start time for /Game/UEDPIE_0_Testleveledit -0.863
+[2015.05.28-15.06.39:491][104]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E16A200
+[2015.05.28-15.06.44:878][501]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.28-15.06.44:878][501]PIE: New page: PIE session: Testleveledit (May 28, 2015, 7:06:44 AM)
+[2015.05.28-15.06.44:885][501]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006256s)
+[2015.05.28-15.06.44:886][501]LogPlayLevel: PIE: World Init took: (0.000998s)
+[2015.05.28-15.06.44:886][501]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Testleveledit.Testleveledit to /Game/UEDPIE_0_Testleveledit.Testleveledit (0.007433s)
+[2015.05.28-15.06.44:956][501]LogWorld: Game class is 'GameMode'
+[2015.05.28-15.06.44:958][501]LogAIModule: Creating AISystem for world Testleveledit
+[2015.05.28-15.06.44:966][501]LogWorld: Bringing World /Game/UEDPIE_0_Testleveledit.Testleveledit up for play (max tick rate 0) at 2015.05.28-11.06.44
+[2015.05.28-15.06.44:967][501]LogWorld: Bringing up level for play took: 0.008431
+[2015.05.28-15.06.44:969][501]PIE: Info Play in editor start time for /Game/UEDPIE_0_Testleveledit 1.069
+[2015.05.28-15.06.56:646][617]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000166F56C0
+[2015.05.28-15.08.25:612][126]LogEditorViewport: Clicking Background
+[2015.05.28-15.08.26:330][209]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube16)
+[2015.05.28-15.08.27:345][298]LogEditorViewport: Clicking Background
+[2015.05.28-15.08.28:169][394]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube17)
+[2015.05.28-15.08.33:857][855]LogEditorViewport: Clicking Background
+[2015.05.28-15.08.43:271][851]MapCheck: New page: Map Check
+[2015.05.28-15.08.43:291][851]LightingResults: New page: Lighting Build - May 28, 2015, 7:08:43 AM
+[2015.05.28-15.08.47:814][851]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.05.28-15.08.47:814][851]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.05.28-15.08.47:814][851]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.05.28-15.08.47:814][851]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.05.28-15.08.47:814][851]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.05.28-15.08.47:814][851]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.05.28-15.08.47:927][851]LogEditorBuildUtils: Build time 0:00:04
+[2015.05.28-15.09.07:386][592]Job is a success!
+[2015.05.28-15.09.07:546][593]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.05.28-15.09.07:993][593]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.05.28-15.09.07:997][593]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.05.28-15.09.08:014][593]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.05.28-15.09.08:209][593]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8)
+[2015.05.28-15.09.08:222][593]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (BGRA8)
+[2015.05.28-15.09.08:264][593]Lightmass on WILLIAM-PC: 19.2 sec total, 1.13 sec importing, 4 ms setup, 3.93 sec photons, 14.1 sec processing, 0 ms extra exporting [104/104 mappings]. Threads: 28.2 sec total, 10.3 sec processing.
+[2015.05.28-15.09.08:275][593]LogStaticLightingSystem: Illumination: 24.9 sec (708 ms encoding lightmaps)
+[2015.05.28-15.09.08:275][593]LogStaticLightingSystem: Lightmap texture memory:  0.4 MB (0.3 MB streaming, 0.0 MB non-streaming), 4 textures
+[2015.05.28-15.09.08:275][593]LogStaticLightingSystem: Shadowmap texture memory: 5.0 MB (4.7 MB streaming, 0.3 MB non-streaming), 14 textures
+[2015.05.28-15.09.09:065][594]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.05.28-15.09.09:065][594]MapCheck: New page: Testleveledit - May 28, 2015, 7:09:09 AM
+[2015.05.28-15.09.09:193][594]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 127.55ms to complete.
+[2015.05.28-15.09.12:186][877]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.28-15.09.12:187][877]PIE: New page: PIE session: Testleveledit (May 28, 2015, 7:09:12 AM)
+[2015.05.28-15.09.12:194][877]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007185s)
+[2015.05.28-15.09.12:195][877]LogPlayLevel: PIE: World Init took: (0.000894s)
+[2015.05.28-15.09.12:196][877]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Testleveledit.Testleveledit to /Game/UEDPIE_0_Testleveledit.Testleveledit (0.008278s)
+[2015.05.28-15.09.12:230][877]LogWorld: Game class is 'GameMode'
+[2015.05.28-15.09.12:232][877]LogAIModule: Creating AISystem for world Testleveledit
+[2015.05.28-15.09.12:243][877]LogWorld: Bringing World /Game/UEDPIE_0_Testleveledit.Testleveledit up for play (max tick rate 0) at 2015.05.28-11.09.12
+[2015.05.28-15.09.12:244][877]LogWorld: Bringing up level for play took: 0.011244
+[2015.05.28-15.09.12:247][877]PIE: Info Play in editor start time for /Game/UEDPIE_0_Testleveledit 0.352
+[2015.05.28-15.11.01:622][330]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003EB02020
+[2015.05.28-15.11.02:636][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Testleveledit" FILE="../../../../../../Users/William/Documents/Unreal Projects/MyProject/Content/Testleveledit.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.28-15.11.02:866][425]LogSavePackage: Save=198.373718ms
+[2015.05.28-15.11.02:866][425]LogSavePackage: Moving '../../../../../../Users/William/Documents/Unreal Projects/MyProject/Saved/Testleveledit6A0C58D94D8220914CA95CBF628684B2.tmp' to '../../../../../../Users/William/Documents/Unreal Projects/MyProject/Content/Testleveledit.umap'
+[2015.05.28-15.11.02:905][425]LogFileHelpers: Saving map 'Testleveledit' took 0.382
+[2015.05.28-15.11.14:398][690]Cmd: SELECT NONE
+[2015.05.28-15.11.16:891][972]LogEditorViewport: Clicking Background
+[2015.05.28-15.11.22:189][502]Cmd: QUIT_EDITOR
+[2015.05.28-15.11.22:546][502]LogExit: Preparing to exit.
+[2015.05.28-15.11.23:207][502]LogExit: Editor shut down
+[2015.05.28-15.11.23:208][502]LogExit: Transaction tracking system shut down
+[2015.05.28-15.11.23:209][502]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B099120
+[2015.05.28-15.11.23:271][502]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000018A30B80
+[2015.05.28-15.11.23:271][502]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C5E3380
+[2015.05.28-15.11.23:271][502]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F3D6520
+[2015.05.28-15.11.23:271][502]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E2D09A0
+[2015.05.28-15.11.23:271][502]LogExit: Object subsystem successfully closed.
+[2015.05.28-15.11.23:344][502]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.05.28-15.11.23:344][502]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.05.28-15.11.23:344][502]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.05.28-15.11.23:344][502]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.05.28-15.11.23:344][502]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.05.28-15.11.23:344][502]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.05.28-15.11.23:344][502]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.05.28-15.11.23:344][502]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.05.28-15.11.23:344][502]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.05.28-15.11.23:344][502]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.05.28-15.11.23:344][502]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.05.28-15.11.23:344][502]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.05.28-15.11.23:344][502]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.05.28-15.11.23:344][502]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.05.28-15.11.23:344][502]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.05.28-15.11.23:345][502]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.05.28-15.11.23:345][502]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.05.28-15.11.23:345][502]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.05.28-15.11.23:345][502]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.05.28-15.11.23:345][502]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.05.28-15.11.23:345][502]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.05.28-15.11.23:345][502]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.05.28-15.11.23:345][502]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.05.28-15.11.23:345][502]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.05.28-15.11.23:345][502]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.05.28-15.11.23:345][502]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.05.28-15.11.23:345][502]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.05.28-15.11.23:345][502]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.05.28-15.11.23:345][502]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.05.28-15.11.23:345][502]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.05.28-15.11.23:345][502]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.05.28-15.11.23:345][502]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.05.28-15.11.23:977][502]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.05.28-15.11.23:977][502]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.05.28-15.11.23:977][502]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.05.28-15.11.23:978][502]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.05.28-15.11.23:978][502]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.05.28-15.11.23:978][502]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.05.28-15.11.23:978][502]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.05.28-15.11.23:978][502]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.05.28-15.11.23:978][502]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.05.28-15.11.23:978][502]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.05.28-15.11.23:978][502]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.05.28-15.11.23:978][502]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.05.28-15.11.23:978][502]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.05.28-15.11.23:978][502]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.05.28-15.11.23:978][502]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.05.28-15.11.23:978][502]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.05.28-15.11.23:978][502]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.05.28-15.11.23:978][502]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.05.28-15.11.23:979][502]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.05.28-15.11.24:056][502]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.05.28-15.11.24:056][502]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.05.28-15.11.24:056][502]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.05.28-15.11.24:058][502]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.05.28-15.11.24:058][502]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.05.28-15.11.24:058][502]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.05.28-15.11.24:058][502]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.05.28-15.11.24:058][502]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.05.28-15.11.24:058][502]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.05.28-15.11.24:058][502]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.05.28-15.11.24:058][502]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.05.28-15.11.24:058][502]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.05.28-15.11.24:058][502]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.05.28-15.11.24:058][502]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.05.28-15.11.24:058][502]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.05.28-15.11.24:058][502]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.05.28-15.11.24:058][502]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.05.28-15.11.24:058][502]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.05.28-15.11.24:058][502]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.05.28-15.11.24:058][502]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.05.28-15.11.24:058][502]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.05.28-15.11.24:212][502]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.05.28-15.11.24:212][502]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.05.28-15.11.24:212][502]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.05.28-15.11.24:212][502]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.05.28-15.11.24:212][502]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.05.28-15.11.24:212][502]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.05.28-15.11.24:212][502]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.05.28-15.11.24:212][502]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.05.28-15.11.24:212][502]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.05.28-15.11.24:212][502]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.05.28-15.11.24:212][502]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.05.28-15.11.24:212][502]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.05.28-15.11.24:212][502]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.05.28-15.11.24:213][502]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.05.28-15.11.24:213][502]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.05.28-15.11.24:213][502]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.05.28-15.11.24:213][502]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.05.28-15.11.24:213][502]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.05.28-15.11.24:213][502]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.05.28-15.11.24:213][502]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.05.28-15.11.24:213][502]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.05.28-15.11.24:213][502]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.05.28-15.11.24:213][502]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.05.28-15.11.24:213][502]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.05.28-15.11.24:214][502]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.05.28-15.11.24:214][502]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.05.28-15.11.24:214][502]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.05.28-15.11.24:314][502]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.05.28-15.11.24:314][502]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.05.28-15.11.24:317][502]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.05.28-15.11.24:317][502]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.05.28-15.11.24:318][502]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.05.28-15.11.24:318][502]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.05.28-15.11.24:318][502]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.05.28-15.11.24:318][502]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.05.28-15.11.24:318][502]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.05.28-15.11.24:318][502]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.05.28-15.11.24:318][502]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.05.28-15.11.24:318][502]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.05.28-15.11.24:318][502]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.05.28-15.11.24:318][502]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.05.28-15.11.24:318][502]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.05.28-15.11.24:318][502]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.05.28-15.11.24:318][502]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.05.28-15.11.24:323][502]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.05.28-15.11.24:323][502]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.05.28-15.11.24:323][502]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.05.28-15.11.24:323][502]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.05.28-15.11.24:323][502]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.05.28-15.11.24:323][502]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.05.28-15.11.24:323][502]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.05.28-15.11.24:323][502]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.05.28-15.11.24:323][502]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.05.28-15.11.24:323][502]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.05.28-15.11.24:324][502]LogDerivedDataCache: Shutdown
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.05.28-15.11.24:324][502]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.05.28-15.11.24:331][502]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.05.28-15.11.24:331][502]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.05.28-15.11.24:331][502]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.05.28-15.11.24:331][502]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.05.28-15.11.24:331][502]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.05.28-15.11.24:331][502]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.05.28-15.11.24:331][502]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.05.28-15.11.24:332][502]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.05.28-15.11.24:332][502]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.05.28-15.11.24:334][502]LogExit: Exiting.
+[2015.05.28-15.11.24:339][502]Log file closed, 05/28/15 11:11:24
